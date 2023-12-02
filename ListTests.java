@@ -16,6 +16,7 @@ public class ListTests {
         testList.add("b");
         testList.add("c");
         testList.add("d");
-        assertEquals("a, b, c, d", ListExamples.filter(testList, sc));
+	List<String> expected = Arrays.asList("a", "b", "c", "d");
+        assertEquals(expected, ListExamples.filter(testList, sc));
     }
 }
