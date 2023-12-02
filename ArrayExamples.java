@@ -25,7 +25,8 @@ public class ArrayExamples {
   // Returns a *new* array with all the elements of the input array in reversed
   // order
 
-  /* incorrect code
+  // incorrect code
+  
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -33,9 +34,11 @@ public class ArrayExamples {
     }
     return arr;
   }
-  */
+  
+  
 
   // Corrected code
+  /*
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -43,6 +46,8 @@ public class ArrayExamples {
     }
     return newArray;
   }
+  */
+
 
   // Averages the numbers in the array (takes the mean), but leaves out the
   // lowest number when calculating. Returns 0 if there are no elements or just
